@@ -8,4 +8,4 @@ do
      echo -e "$line$text$count                  "; 
 echo "  Code :  $line
 " ;
-done < ~/bin/colors/colorCodes
+done < ~/bin/terminalColors/colorCodes
