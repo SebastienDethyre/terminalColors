@@ -1,0 +1,11 @@
+#!/bin/bash
+
+text="  Texte d'exemple, afin de pouvoir se faire une bonne idée    ██   "
+count=0
+while IFS= read -r line; 
+do 
+    (( count = count + 1 ))
+     echo -e "$line$text$count                  "; 
+echo "  Code :  $line
+" ;
+done < ~/bin/colors/colorCodes
